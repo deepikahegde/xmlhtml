@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document>
+
+ <user_for_feedback>
+    	<title>Deepika Hegde</title> 
+        <name>
+        	<firstname>Deepika</firstname>
+        	<lastname>Hegde</lastname>
+        </name>
+        <feedback_date>feedback_date : 12th April, 2020</feedback_date> 
+        <class>class  : yoga</class> 
+        <instructor>instructor : Aditi</instructor> 
+        <feedback>feedback : Amazing</feedback> 
+    </user_for_feedback> 
+
+
+    <user_for_feedback> 
+    	<title>Divya Singh</title> 
+        <name>
+        	<firstname>Divya</firstname>
+        	<lastname>Singh</lastname>
+        </name>
+        <feedback_date>feedback_date : 10th September, 2020</feedback_date> 
+        <class>class : gym</class> 
+        <instructor>instructor : Shreyash</instructor> 
+        <feedback>feedback : Happy with my instructor....cheers to us</feedback> 
+    </user_for_feedback> 
+
+
+<user_for_feedback>
+		<title>Varad Patak</title>  
+        <name>
+        	<firstname>Varad</firstname>
+        	<lastname>Patak</lastname>
+        </name>
+        <feedback_date>feedback_date : 21st October, 2020</feedback_date> 
+        <class>class  : Body building</class> 
+        <instructor>instructor : Akshay</instructor> 
+        <feedback>feedback : I suggest everyone to join and have a great experience</feedback> 
+    </user_for_feedback> 
+
+</document>
