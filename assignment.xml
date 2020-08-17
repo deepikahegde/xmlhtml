@@ -11,7 +11,8 @@
         <feedback_date>feedback_date : 12th April, 2020</feedback_date> 
         <class>class  : yoga</class> 
         <instructor>instructor : Aditi</instructor> 
-        <feedback>feedback : Amazing</feedback> 
+        <feedback>feedback : Amazing</feedback>
+        <rate>5000</rate> 
     </user_for_feedback> 
 
 
@@ -25,6 +26,7 @@
         <class>class : gym</class> 
         <instructor>instructor : Shreyash</instructor> 
         <feedback>feedback : Happy with my instructor....cheers to us</feedback> 
+        <rate>10000</rate>
     </user_for_feedback> 
 
 
@@ -38,6 +40,7 @@
         <class>class  : Body building</class> 
         <instructor>instructor : Akshay</instructor> 
         <feedback>feedback : I suggest everyone to join and have a great experience</feedback> 
+        <rate>8000</rate>
     </user_for_feedback> 
 
 </document>
