@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Fitness centres</title>
+	<style type="text/css">
+	.tiledBackground {
+  background-image: url(background.jpg);
+  background-size: 150px;
+  width: 1500px;
+  height: 500px;
+  border: 2px solid;
+  color: pink;
+}
+.footer-section {
+  overflow: hidden;
+}
+
+.map-location {
+  height: 610px;
+  position: relative;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.map-location iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.map-location .map-widget {
+  position: absolute;
+  left: 20%;
+  top: 40%;
+}
+.map-location .map-widget i {
+  position: absolute;
+  left: 77%;
+  top: 109px;
+  font-size: 35px;
+  color: #f34e3a;
+}
+.map-location .map-widget .map-address {
+  height: 100px;
+  width: 330px;
+  background: #ffffff;
+}
+.map-location .map-widget .map-address img {
+  float: left;
+}
+.map-location .map-widget .map-address ul {
+  display: table;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 22px;
+  padding-right: 25px;
+}
+.map-location .map-widget .map-address ul li {
+  list-style: none;
+  color: #707070;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+.map-location .map-widget .map-address ul li:last-child {
+  color: #f34e3a;
+}
+.map-location .map-widget .map-address ul li span {
+  color: #252525;
+}
+
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+
+</style>
+</head>
+<body bgcolor="#000000">
+	<font size="6"
+          face="verdana"
+          color="green"> 
+          <div >
+
+           
+	<h1>WELCOME TO MENTAL AND PHYSICAL FITNESS CENTER</h1>
+</font>
+<font size="6"
+          face="verdana"
+          color="white"> 
+	
+	
+		   
+		    <a href="first.html">Home</a>&nbsp;&nbsp;
+			<a href="about.html">About us</a>&nbsp;&nbsp;
+			<a href="gallery.html">gallery</a>&nbsp;&nbsp;
+			<a href="services.html">Services</a>&nbsp;&nbsp;
+	        <a href="more.html">More about us</a>&nbsp;&nbsp;
+
+
+		    
+	<p id="demo"></p>
+
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        myFunction(this);
+    }
+};
+xhttp.open("GET", "list.xml", true);
+xhttp.send();
+
+function myFunction(xml) {
+    var x, i, xmlDoc, txt;
+    xmlDoc = xml.responseXML;
+    txt = "";
+    x = xmlDoc.getElementsByTagName('title');
+    for (i = 0 ; i <x.length; i++) {
+        txt += x[i].childNodes[0].nodeValue + "<br>";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id = 'content'>
+        <table id='internaldtd' cellpadding='10px' style="text-align:left;">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Head</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <script>
+        let xmlcontent = '';
+        let tablebooks = document.getElementById('internaldtd'); 
+        fetch('dom.xml').then((response)=> {
+                response.text().then((xml)=>{
+                    xmlcontent = xml;
+                    let parser = new DOMParser();
+                    let xmlDom = parser.parseFromString(xmlcontent,'application/xml');
+                    let rdf = xmlDom.querySelectorAll('Registered_Data_Format');
+
+                    rdf.forEach(rdfXmlNode => {
+                        let row = document.createElement('tr');
+                        let td = document.createElement('td');
+                        td.innerText = rdfXmlNode.children[1].innerHTML;
+                        row.appendChild(td);
+
+                        td = document.createElement('td');
+                        td.innerText = rdfXmlNode.children[2].innerHTML;
+                        row.appendChild(td);
+
+                        td = document.createElement('td');
+                        td.innerText = rdfXmlNode.children[3].innerHTML;
+                        row.appendChild(td);
+
+                        td = document.createElement('td');
+                        td.innerText = rdfXmlNode.children[4].innerHTML;
+                        row.appendChild(td);
+
+                        tablebooks.children[1].appendChild(row);
+                    });
+
+                });
+
+        });
+    </script>
+</body> 

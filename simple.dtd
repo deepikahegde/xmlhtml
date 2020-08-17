@@ -1,0 +1,6 @@
+<!ELEMENT list (product) >
+<!ELEMENT product (item)>
+<!ELEMENT item (name,class, details_info)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT class (#PCDATA)>
+<!ELEMENT details_info (#PCDATA)>

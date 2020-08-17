@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallary</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+</style>
+</head>
+<body bgcolor="#000000">
+	<font size="6"
+          face="Arial"
+          color="green"> 
+	<div style="background-color:#00FFFF">
+		    <h1>WELCOME TO MENTAL AND PHYSICAL FITNESS CENTER</h1>
+			<a href="first.html">Home</a>
+			<a href="about.html">About Us</a>
+			<a href="services.html">Services</a>
+	        <a href="more.html">More about us</a>
+			<a href="contact.html">Contact</a><br>
+		    
+		    
+	</div>
+
+
+	<!--<section class="gallery-section spad">
+		 <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+		 <div class="filter-controls">
+                        <ul>
+                            <li class="active" data-filter=".all">All Gallery</li>
+                            <li data-filter=".fitness">Fitness</li>
+                            <li data-filter=".coaching">Coaching</li>
+                            <li data-filter=".event">Event</li>
+                            <li data-filter=".other">Other</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>-->
+            </font>
+
+            <div class="main">
+
+<h1>MYLOGO.COM</h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+<p>Resize the browser window to see the responsive effect.</p>
+
+<!-- Portfolio Gallery Grid -->
+<div> <object data="videoplayback.mp4" width="800" height="400"></object>
+                        </div>
+  <div class="row">
+  <div class="column">
+    <div class="content">
+
+      <img src="img/gallery/gallery-1.jpg" alt="Mountains" style="width:100%">
+      <h3>Gym</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="img/gallery/gallery-2.jpg" alt="Lights" style="width:100%">
+      <h3>Gym</h3>
+      <p>The last three or four reps is what makes the muscle grow. This area of pain divides a champion from someone who is not a champion..</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="img/gallery/gallery-5.jpg" alt="Nature" style="width:100%">
+      <h3>Gym</h3>
+      <p>Success usually comes to those who are too busy to be looking for it.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="img/gallery/gallery-3.jpg" alt="Mountains" style="width:100%">
+      <h3>Gym</h3>
+      <p>If you think lifting is dangerous, try being weak. Being weak is dangerous.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="img/gallery/gallery-4.jpg" alt="Bear" style="width:100%">
+  <h3>Importance of workout</h3>
+  <p>The only place where success comes before work is in the dictionary.</p>
+  <p>The clock is ticking. Are you becoming the person you want to be?</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+          <!--  <div class="row gallery-filter">
+            <div class="col-md-8 mix all fitness">
+	<div> <object data="videoplayback.mp4" width="800" height="400"></object>
+                        </div>
+                        <div class="row gallery-filter">
+                <div class="col-md-8 mix all fitness">
+                    <div class="gallery-item">
+                        <div class="gi-img">
+                        	<object data="img/gallery/gallery-1.jpg" width="800" height="400"></object>
+                            
+                        </div>
+                        <div class="gi-text">
+                            <h5>Sweet Berry Farm</h5>
+                            <span>Fitness, Event</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-lg-12 mix all coaching event">
+                            <div class="gallery-item">
+                                <div class="gi-img">
+                                   <object data="img/gallery/gallery-2.jpg" width="800" height="400"></object>
+                                </div>
+                                <div class="gi-text">
+                                    <h5>Sweet Berry Farm</h5>
+                                    <span>Fitness, Event</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 mix all other fitness">
+                            <div class="gallery-item">
+                                <div class="gi-img">
+                                    <object data="img/gallery/gallery-3.jpg" width="800" height="400"></object>
+                                </div>
+                                <div class="gi-text">
+                                    <h5>Sweet Berry Farm</h5>
+                                    <span>Fitness, Event</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="row">
+                        <div class="col-lg-12 mix all coaching">
+                            <div class="gallery-item">
+                                <div class="gi-img">
+                                   <object data="img/gallery/gallery-4.jpg" width="800" height="400"></object>
+                                </div>
+                                <div class="gi-text">
+                                    <h5>Sweet Berry Farm</h5>
+                                    <span>Fitness, Event</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 mix all other event">
+                            <div class="gallery-item">
+                                <div class="gi-img">
+                                   <object data="img/gallery/gallery-5.jpg" width="800" height="400"></object>
+                                </div>
+                                <div class="gi-text">
+                                    <h5>Sweet Berry Farm</h5>
+                                    <span>Fitness, Event</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mix all coaching fitness">
+                    <div class="gallery-item">
+                        <div class="gi-img">
+                           <object data="img/gallery/gallery-6.jpg" width="800" height="400"></object>
+                        </div>
+                        <div class="gi-text">
+                            <h5>Sweet Berry Farm</h5>
+                            <span>Fitness, Event</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mix all event other">
+                    <div class="gallery-item">
+                        <div class="gi-img">
+                           <object data="img/gallery/gallery-7.jpg" width="800" height="400"></object>
+                        </div>
+                        <div class="gi-text">
+                            <h5>Sweet Berry Farm</h5>
+                            <span>Fitness, Event</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+</body>
+</html>

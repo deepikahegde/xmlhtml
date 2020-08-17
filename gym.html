@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Fitness centres</title>
+	<style>
+      .img-container {
+        text-align: center;
+      }
+      body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("gymba.jpg");
+
+  min-height: 980px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 700px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+    </style>
+</head>
+<body bgcolor="#000000">
+	<font size="6"
+          face="verdana"
+          color="green"> 
+           
+	<h1>WELCOME TO MENTAL AND PHYSICAL FITNESS CENTER</h1>
+</font>
+<font size="6"
+          face="verdana"
+          color="white"> 
+
+	
+	<div>
+		
+
+			<a href="first.html">Home</a>&nbsp;&nbsp;
+			<a href='about.html'>About us</a>&nbsp;&nbsp;
+			<a href="gallery.html">gallery</a>&nbsp;&nbsp;
+			<a href="services.html">Services</a>&nbsp;&nbsp;
+	        <a href="more.html">More about us</a>&nbsp;&nbsp;
+			
+		    
+	</div>
+</font>
+	
+<div class="bg-img">
+  <form action="/action_page.php" class="container">
+    <h1>Signup</h1>
+
+    <label for="name"><b>Name:</b></label><br>
+  <input type="text" id="name" name="name"><br><br>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+   <label for="gender"><b>Gender</b></label><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+
+   <label for="time"><b>Preferred time</b></label><br>
+  <input type="checkbox" id="morning" name="Morning" value="Morning">
+  <label for="vehicle1">Morning</label>
+  <input type="checkbox" id="Afternoon" name="Afternoon" value="Afternoon">
+  <label for="vehicle2"> Afternoon</label>
+  <input type="checkbox" id="Evening" name="Evening" value="Evening">
+  <label for="vehicle3"> Evening</label><br><br>
+
+  <label for="coach"><b>Coach:</b></label>
+
+<select id="coach">
+  <option value="Subash">Mr.Subash</option>
+  <option value="Shreyash">Mr.Shreyash</option>
+  <option value="Akshay">Mr.Akshay</option>
+  <option value="Abhishek" selected>Mr.Abhishek</option>
+</select><br><br>
+
+<label for="join"><b>Date of joining:</b></label>
+<input type="date" id="join" name="join"><br><br>
+
+ <label for="protein"><b>Proteins:</b></label>
+  <select id="pro" name="Protein" size="4" multiple>
+    <option value="Whey Protein">Whey Protein</option>
+    <option value="Casein Protein">Casein Protein</option>
+    <option value=" Egg Protein"> Egg Protein</option>
+    <option value="Pea Protein">Pea Protein</option>
+  </select><br><br>
+
+   <label for="area"><b>Area:</b></label>
+  <input list="area" name="area">
+  <datalist id="area">
+    <option value="Koramangala">
+    <option value="Magestic">
+    <option value="Yashwantpur">
+    <option value="Hebbal">
+    <option value="Electronic city">
+  </datalist><br><br>
+
+<label for="Experience"><b>Experience</b></label><br>
+  <textarea name="Experience" rows="10" cols="30">
+
+</textarea>
+
+  
+
+    <button type="submit" class="btn">SignUp</button>
+  </form>
+</div>
+<font size="6"
+          face="verdana"
+          color="white"> 
+	<div>
+		<p>Wondering about your diet and workout plans???.......click on image for diet and workout plans.........and we give a perfect solution for you.......</p></div>
+		 <div class="img-container"> 
+		<img src="D:\msc3\webtech\lab1\dietwork.jpg" height="300" width="500" align='centres' alt="gym" usemap="#gymmap">
+		<map name="gymmap">
+  <area shape="rect" coords="0,0,270,350" alt="Diet" href="diet.html">
+  <area shape="rect" coords="270,0,530,350" alt="Phone" href="work.html">
+</map>
+	</div>
+	</body>
+</html>

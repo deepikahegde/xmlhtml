@@ -1,0 +1,83 @@
+*
+{
+   margin: 0;
+   padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+    
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,#8EC2B8,#26665A);
+    padding: 0 !important;
+    
+}
+.navbar.a.nav-link:hover, a.nav-link:active
+{
+    color: aliceblue;
+    background: darkblue;
+    font-size: 150%;
+    text-decoration: underline;
+}
+.navbar.a.nav-link:hover, a.nav-link:default
+{
+    color: cadetblue;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 20px; 
+    
+}
+.navbar-nav li
+{
+    padding: 0 10px;   
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 400;
+    float: right;
+    text-align: left;
+}
+.navbar h5
+{
+    color: white;
+    text-decoration-style: dashed;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 22px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+    
+}
+#pricetable
+{
+    margin: 100px 0;
+}
+.pricetable table th, td
+{
+    text-align: left;
+    padding: 8px;
+}
+.pricetable table tr:nth-child(even)
+{
+    background-color: aliceblue;
+}
+.pricetable table th
+{
+    background-image: linear-gradient(to right,#8EC2B8,#26665A);
+    color: #fff;
+}

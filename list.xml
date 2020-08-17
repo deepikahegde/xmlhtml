@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="extxml.css"?>
+
+<!DOCTYPE list SYSTEM "simple.dtd">
+
+
+<list>
+  <product>
+   
+    <title>Instructor Details</title>
+    
+      <item>
+        <title>Gym</title>
+        <name>1. Shreyash</name>
+        <class> Class: Gym </class>
+        <details_info>If you think lifting is dangerous, try being weak. Being weak is dangerous.</details_info>
+      </item>
+        
+      <item>
+        <title>Body building</title>
+        <name>2. Akshay</name>
+        <class> Class: Body building </class>
+        <details_info>Being negative and lazy is a disease that leads to pain, hardships, depression, poor health and failure. Be proactive and give a damn to achieve success!</details_info>
+      </item>
+
+      <item>
+         <title>Yoga</title>
+        <name>3. Aditi</name>
+        <class> Class: Yoga </class>
+        <details_info>Yoga does not just change the way we see things, it transforms the person who sees.</details_info>
+      </item>
+
+     
+    
+  </product>
+ </list>
