@@ -1,0 +1,40 @@
+{
+  "class" : "Fitness",
+  "City" : "Bangalore",
+  "formed" : 2016,
+  "active" : true,
+  "members" : [
+    {
+      "name" : "Gym",
+      "age" : 24,
+      "Trainer" : "Shreyash",
+      "Advantages" : [
+        "Fit body",
+        "Perfect shape",
+        "Attractive physical traits"
+      ]
+    },
+    {
+      "name" : "Yoga",
+      "age" : 29,
+      "Trainer" : "Aditi",
+      "Advantages" : [
+        "Peace of mind",
+        "Increased concentration",
+        "Increased immunity"
+      ]
+    },
+    {
+      "name" : "Body building",
+      "age" : 28,
+      "Trainer" : "Akshay",
+      "Advantages" : [
+        "Fit body",
+        "Can lift upto 100kg",
+        "Power",
+        "Good energy"
+        
+      ]
+    }
+  ]
+}
